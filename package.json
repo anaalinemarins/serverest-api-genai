@@ -1,0 +1,14 @@
+{
+  "name": "serverest-api-genai",
+  "version": "1.0.0",
+  "description": "Automação de testes de API REST com JavaScript + Playwright e GenAI",
+  "scripts": {
+    "test:api": "playwright test tests/api",
+    "test:api:headed": "playwright test tests/api --headed",
+    "test:api:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "dotenv": "^17.2.2"
+  }
+}
